@@ -45,7 +45,7 @@ $ddsg_lang_file = trim(get_option(ddsg_language));
 if ($ddsg_lang_file == '') {
 	$ddsg_lang_file = 'English';
 }
-include ABSPATH . 'wp-content/plugins/dd-sitemap-gen/lang/' . $ddsg_lang_file . '.php';
+include ABSPATH . 'wp-content/plugins/sitemap-generator/lang/' . $ddsg_lang_file . '.php';
 
 
 /* 
@@ -150,7 +150,7 @@ function ddsg_options_page() {
 
 	// Get list of available languages
 	$language_list = array();
-    $handle = opendir(ABSPATH . 'wp-content/plugins/dd-sitemap-gen/lang');
+    $handle = opendir(ABSPATH . 'wp-content/plugins/sitemap-generator/lang');
     while ($file = readdir($handle)) {
         if ($file != '.' && $file != '..')
    	        $language_list[] = $file;
