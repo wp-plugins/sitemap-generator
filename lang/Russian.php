@@ -42,7 +42,7 @@ define('DDSG_FOR_INFO', 'Дополнительная информация и о
 define('DDSG_DEFAULT_NOTICE', '<strong>Производите обновление?</strong> Если вы обновляете версию плагина, нажмите на кнопку <strong>Загрузить настройки по умолчанию</strong> ниже. Некоторые настройки, скорее всего, изменились.');
 
 define('DDSG_LANGUAGE', 'Язык');
-define('DDSG_LANGUAGE_DESC', 'Файлы локализации находятся в <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Файлы локализации находятся в <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Основные настройки');
 define('DDSG_ITEMS_PER_PAGE', 'Количество единиц контента на странице:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Для сниятия ограничения введите 0 (ноль)');

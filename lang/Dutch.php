@@ -41,7 +41,7 @@ define('DDSG_FOR_INFO', 'Voor informatie en nieuwe versies, bezoek a.u.b.:');
 define('DDSG_DEFAULT_NOTICE', '<strong>Bijwerken?</strong> Als u van een vorige versie aan het bijwerken bent, klik dan de knop <strong>Standaardwaarden laden</strong> hieronder. Sommige instellingen kunnen gewijzigd zijn.');
 
 define('DDSG_LANGUAGE', 'Taal');
-define('DDSG_LANGUAGE_DESC', 'Taalbestanden bevinden zich in <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Taalbestanden bevinden zich in <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Algemene opties');
 define('DDSG_ITEMS_PER_PAGE', 'Aantal per pagina:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Kies 0 voor onbeperkt');

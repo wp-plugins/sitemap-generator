@@ -42,7 +42,7 @@ define('DDSG_FOR_INFO', 'Pour des informations et les mise à jour, visitez :');
 define('DDSG_DEFAULT_NOTICE', '<strong>Mise à jour ?</strong> Si vous mettez à jour depuis une version précédente, cliquez sur le bouton <strong>charger les options par défaut</strong>. Quelques réglages peuvent différer.');
 
 define('DDSG_LANGUAGE', 'Langage');
-define('DDSG_LANGUAGE_DESC', 'Les fichiers de langues sont dans <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Les fichiers de langues sont dans <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Options générales');
 define('DDSG_ITEMS_PER_PAGE', 'Éléments par pages :');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Mettez 0 pour illimité');

@@ -40,7 +40,7 @@ define('DDSG_FOR_INFO', '更新等に関する情報はこちらをご覧くだ�
 define('DDSG_DEFAULT_NOTICE', '<strong>アップグレードされた方へ -</strong> 古いバージョンからアップグレードされた場合は, ページ下の<strong>「デフォルトに戻す」</strong>ボタンをクリックしてください。いくつかの設定が変更されています。');
 
 define('DDSG_LANGUAGE', '言語');
-define('DDSG_LANGUAGE_DESC', '言語ファイルは<strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>に置かれています。');
+define('DDSG_LANGUAGE_DESC', '言語ファイルは<strong>/wp-content/plugins/sitemap-generator/lang/</strong>に置かれています。');
 define('DDSG_GENERAL_OPTIONS', '一般オプション');
 define('DDSG_ITEMS_PER_PAGE', '1ページごとの表示数:');
 define('DDSG_ITEMS_PER_PAGE_INFO', '「0」を指定した場合、無制限に表示します');

@@ -40,7 +40,7 @@ define('DDSG_FOR_INFO', 'Para m&aacute;s informaci&oacute;n y actualizaciones, v
 define('DDSG_DEFAULT_NOTICE', '<strong>Actualizando?</strong> Si est&aacute;s actualizando desde una versi&oacute;n anterior, pincha en el bot&oacute;n <strong>Cargar opciones por defecto</strong> que hay debajo. Algunos ajustes puede que cambien.');
 
 define('DDSG_LANGUAGE', 'Lenguaje');
-define('DDSG_LANGUAGE_DESC', 'Los archivos de lenguaje se guardan en <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Los archivos de lenguaje se guardan en <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Opciones generales');
 define('DDSG_ITEMS_PER_PAGE', 'Elementos por p&aacute;gina:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Poner a 0 para ilimitados');

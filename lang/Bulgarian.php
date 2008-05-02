@@ -41,7 +41,7 @@ define('DDSG_FOR_INFO', 'За информация и обновявания, м
 define('DDSG_DEFAULT_NOTICE', '<strong>Надстройване?</strong> Ако надстройвате от предишна версия, натиснете бутона <strong>Зареждане на настройки по подразбиране</strong> намиращ се най-долу на страницата. Някои настройки може да са променени.');
 
 define('DDSG_LANGUAGE', 'Език');
-define('DDSG_LANGUAGE_DESC', 'Езиковите файлове се намират в <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Езиковите файлове се намират в <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Общи настройки');
 define('DDSG_ITEMS_PER_PAGE', 'Елементи на страница:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Въведете 0 за безброй');

@@ -40,7 +40,7 @@ define('DDSG_FOR_INFO', 'For information and updates, please visit:');
 define('DDSG_DEFAULT_NOTICE', '<strong>Upgrading?</strong> If you are upgrading from a previous version, click the <strong>Load Default Options</strong> button below. Some settings may have changed.');
 
 define('DDSG_LANGUAGE', 'Language');
-define('DDSG_LANGUAGE_DESC', 'Language files are located in <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Language files are located in <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'General Options');
 define('DDSG_ITEMS_PER_PAGE', 'Items per page:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Set to 0 for unlimited');

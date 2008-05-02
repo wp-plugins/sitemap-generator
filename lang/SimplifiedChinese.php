@@ -40,7 +40,7 @@ define('DDSG_FOR_INFO', '查看更多信息并获取本插件的最新版本，�
 define('DDSG_DEFAULT_NOTICE', '<strong>升级提示：</strong> 如果您刚从旧版本升级，请点击最下方的<strong>“载入默认设置”</strong>按钮。');
 
 define('DDSG_LANGUAGE', '插件语言：');
-define('DDSG_LANGUAGE_DESC', '语言包文件保存在 <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong> 目录中');
+define('DDSG_LANGUAGE_DESC', '语言包文件保存在 <strong>/wp-content/plugins/sitemap-generator/lang/</strong> 目录中');
 define('DDSG_GENERAL_OPTIONS', '常规选项');
 define('DDSG_ITEMS_PER_PAGE', '每页条目数：');
 define('DDSG_ITEMS_PER_PAGE_INFO', '填 0 表示不限制');

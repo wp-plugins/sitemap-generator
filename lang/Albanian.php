@@ -40,7 +40,7 @@ define('DDSG_FOR_INFO', 'Per me shume informacione dhe axhornime, jeni te lutur 
 define('DDSG_DEFAULT_NOTICE', '<strong>Axhornim?</strong> Nese jeni duke axhornuar nga nje version i meparshem, klikoni tek butoni <strong>Apliko Konfigurimin Fillestar</strong> . Mund te kete ndryshuar ngonje konfigurim.');
 
 define('DDSG_LANGUAGE', 'Gjuha');
-define('DDSG_LANGUAGE_DESC', 'Filet e gjuhes ndodhen ne <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Filet e gjuhes ndodhen ne <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Opsione Gjenerale');
 define('DDSG_ITEMS_PER_PAGE', 'Artikuj per faqe:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Shkruaj 0 per te mos caktuar nje limit');
