@@ -41,7 +41,7 @@ define('DDSG_FOR_INFO', 'Para informa&#231;&#245;es e atualiza&#231;&#245;es vis
 define('DDSG_DEFAULT_NOTICE', '<strong>Fazendo upgrade?</strong> Se voc&#234; estiver fazendo upgrade a partir de vers&#245;es anteriores click o bot&#227;o <strong>Carregar op&#231;&#245;es padr&#227;o </strong> localizado no final desta p&#225;gina. Algumas configura&#231;&#245;es podem ter mudado.');
 
 define('DDSG_LANGUAGE', 'Idioma');
-define('DDSG_LANGUAGE_DESC', 'Os arquivos de idiomas est&#227;o em: <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Os arquivos de idiomas est&#227;o em: <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Op&#231;&#245;es Gerais');
 define('DDSG_ITEMS_PER_PAGE', 'Items por p&#225;gina:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Defina 0 para um n&#250;mero ilimitado de items');

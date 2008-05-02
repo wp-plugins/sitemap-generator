@@ -41,7 +41,7 @@ define('DDSG_FOR_INFO', 'Informacje i aktualności:');
 define('DDSG_DEFAULT_NOTICE', '<strong>Aktualizujesz?</strong> Jeśli aktualizujesz wtyczkę do nowej wersji, kliknij przycisk <strong>Wczytaj ustawienia domyślne</strong>, który znajdziesz poniżej. Niektóre opcje mogły się zmienić.');
 
 define('DDSG_LANGUAGE', 'Język');
-define('DDSG_LANGUAGE_DESC', 'Pliki językowe zlokalizowane są w <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Pliki językowe zlokalizowane są w <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Ustawienia główne');
 define('DDSG_ITEMS_PER_PAGE', 'Pozycji na stronę:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Ustaw 0 by nie ograniczać');

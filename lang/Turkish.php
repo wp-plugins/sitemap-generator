@@ -43,7 +43,7 @@ define('DDSG_FOR_INFO', 'Bilgi ve g&#252;ncellemeler i&#231;in web sitesi:');
 define('DDSG_DEFAULT_NOTICE', '<strong>G&#252;ncelliyor Musunuz?</strong> eðer daha &#246;nceki bir s&#252;r&#252;mden g&#252;ncelleme yap&#305;yorsan&#305;z, l&#252;tfen a&#351;að&#305;daki <strong>Standart Ayarlar&#305; Y&#252;kle</strong> butonuna bas&#305;n&#305;z. Baz&#305; ayarlar &#351;ekilleri deði&#351;mi&#351; olabilir &#231;&#252;nk&#252;.');
 
 define('DDSG_LANGUAGE', 'Dil');
-define('DDSG_LANGUAGE_DESC', 'Dil dosyalar <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong> klas&#246;r&#252;nde bulunmaktad&#305;r');
+define('DDSG_LANGUAGE_DESC', 'Dil dosyalar <strong>/wp-content/plugins/sitemap-generator/lang/</strong> klas&#246;r&#252;nde bulunmaktad&#305;r');
 define('DDSG_GENERAL_OPTIONS', 'Genel Ayarlar');
 define('DDSG_ITEMS_PER_PAGE', 'Sayfa Ba&#351;&#305;na g&#246;sterilecek miktar:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'S&#305;n&#305;rs&#305;z olms&#305; i&#231;in 0 yaz&#305;n');

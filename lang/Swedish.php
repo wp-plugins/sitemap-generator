@@ -40,7 +40,7 @@ define('DDSG_FOR_INFO', 'För information och uppdateringar, besök:');
 define('DDSG_DEFAULT_NOTICE', '<strong>Uppgradera?</strong> Om du uppgraderar från en föregående version, klicka på <strong>Ladda default-inställningar</strong>  nedan. Vissa inställningar kan ha ändrats.');
 
 define('DDSG_LANGUAGE', 'Språk');
-define('DDSG_LANGUAGE_DESC', 'Språkfiler finns i <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Språkfiler finns i <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Inställningar');
 define('DDSG_ITEMS_PER_PAGE', 'Objekt per sida:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Ange 0 för obegränsat');

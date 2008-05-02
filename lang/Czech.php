@@ -40,7 +40,7 @@ define('DDSG_FOR_INFO', 'Pro informace a updaty navštivte:');
 define('DDSG_DEFAULT_NOTICE', '<strong>Upgrading?</strong> If you are upgrading from a previous version, click the <strong>Load Default Options</strong> button below. Some settings may have changed.'); 
 
 define('DDSG_LANGUAGE', 'Jazyk'); 
-define('DDSG_LANGUAGE_DESC', 'Jazykové soubory uloženy v <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>'); 
+define('DDSG_LANGUAGE_DESC', 'Jazykové soubory uloženy v <strong>/wp-content/plugins/sitemap-generator/lang/</strong>'); 
 define('DDSG_GENERAL_OPTIONS', 'Hlavní nastavení'); 
 define('DDSG_ITEMS_PER_PAGE', 'Prvků na stránce:'); 
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Nastav 0 pro neomezený počet'); 

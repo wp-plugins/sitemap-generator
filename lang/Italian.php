@@ -41,7 +41,7 @@ define('DDSG_FOR_INFO', 'Per ulteriori informazioni ed aggiornamenti, visita la 
 define('DDSG_DEFAULT_NOTICE', '<strong>Hai aggiornato il plugin?</strong> Avessi effettuato l&prime;aggiornamento da una versione precedente, clicca il pulsante <strong>Carica Opzioni Predefinite</strong> qui sotto. Alcune impostazioni potrebbero essere state modificate.');
 
 define('DDSG_LANGUAGE', 'Lingua');
-define('DDSG_LANGUAGE_DESC', 'I file di traduzione sono allocati in <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'I file di traduzione sono allocati in <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Opzioni Generali');
 define('DDSG_ITEMS_PER_PAGE', 'Numero di voci per pagina:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Imposta a 0 per un numero illimitato');

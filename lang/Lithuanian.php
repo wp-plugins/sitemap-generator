@@ -40,7 +40,7 @@ define('DDSG_FOR_INFO', 'Daugiau informacijos ir atnaujinimus rasi:');
 define('DDSG_DEFAULT_NOTICE', '<strong>Atnaujini?</strong> Jeigu atnaujini iš sensenes versijos, paspausk ant <strong>Nustatyti standartinius nustatymus</strong> apacioje. Kai kurie nustatymai galejo pasikeisti.');
 
 define('DDSG_LANGUAGE', 'Kalba');
-define('DDSG_LANGUAGE_DESC', 'Kalbu failai yra: <strong>/wp-content/plugins/dd-sitemap-gen/lang/</strong>');
+define('DDSG_LANGUAGE_DESC', 'Kalbu failai yra: <strong>/wp-content/plugins/sitemap-generator/lang/</strong>');
 define('DDSG_GENERAL_OPTIONS', 'Pagrindiniai nustatymai');
 define('DDSG_ITEMS_PER_PAGE', 'Irašu puslapyje:');
 define('DDSG_ITEMS_PER_PAGE_INFO', 'Nustacius 0 bus rodomi visi irašai');
