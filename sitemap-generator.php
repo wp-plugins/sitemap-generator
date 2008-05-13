@@ -5,11 +5,11 @@ Plugin Name: Dagon Design Sitemap Generator
 Plugin URI: http://www.dagondesign.com/articles/sitemap-generator-plugin-for-wordpress/
 Description: Generates a fully customizable sitemap
 Author: Dagon Design
-Version: 3.13
+Version: 3.14
 Author URI: http://www.dagondesign.com
 */
 
-$ddsg_ver = '3.13';
+$ddsg_ver = '3.14';
 
 /* 
  * Set up options if they do not exist
@@ -1206,7 +1206,7 @@ function ddsg_create_sitemap() {
 	}
 
 
-	$t_out .= '<p align="right" style="font-size:90%;">' . DDSG_CREDITS . ' <a href="http://www.dagondesign.com" title="Dagon Design">dagondesign.com</a></p>';
+	$t_out .= '<div style="text-align: right;"><p style="font-size:90%;">' . DDSG_CREDITS . ' <a href="http://www.dagondesign.com" title="Dagon Design">dagondesign.com</a></p></div>';
 
 	$t_out .= '</div>';
 
@@ -1230,14 +1230,16 @@ function ddsg_create_sitemap() {
  */
 function ddsg_permalinks($rules) { 
 	global $wp_rewrite;
-	$ddsg_sm_name = get_option('ddsg_sm_name'); 
+	$ddsg_sm_name = trim(get_option('ddsg_sm_name')); 
 	if ($wp_rewrite->use_verbose_rules || !isset($wp_rewrite->use_verbose_rules)) {
 		$match_form = '$1';
 	} else {
 		$match_form = '$matches[1]';
 	}
 
-	if ($ddsg_sm_name) {
+	if ($ddsg_sm_name != '') {	
+		$ddsg_sm_name = 'index.php/' . $ddsg_sm_name;	
+	
 		$newrules[$ddsg_sm_name . '/([0-9]{1,})/?$'] = 'index.php?&pagename=' . $ddsg_sm_name . '&pg=' . $match_form;
 		$newrules = array_merge($newrules,$rules);
 		return $newrules;
@@ -1245,6 +1247,7 @@ function ddsg_permalinks($rules) {
 		return $rules;
 	}
 } 
+
 
 /* 
  * Initialize query var for sitemap permalinks
